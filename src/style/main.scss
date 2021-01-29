@@ -10,5 +10,9 @@ html{
     box-sizing: inherit;
 }
 
+$nav-black : #333333;
+
 @import 'layout';
 @import 'headernavbar';
+@import './auth/signin.scss';
+@import './auth/signup.scss';
