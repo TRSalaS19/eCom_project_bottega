@@ -6,7 +6,7 @@ class Header extends Component {
       <div className="header">
         <img src="http://via.placeholder.com/50x50"/>
       </div>
-    );
+    )
   }
 }
 

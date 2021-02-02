@@ -6,7 +6,7 @@ class Navbar extends Component {
       <div className='navbar'>
         
       </div>
-    );
+    )
   }
 }
 
