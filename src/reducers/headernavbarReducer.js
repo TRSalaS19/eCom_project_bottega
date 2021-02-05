@@ -9,17 +9,17 @@ const INITIAL_STATE = {
 }
 
 export default function(state = INITIAL_STATE, action) {
-    switch (action.type) {
+  switch (action.type) {
       case SET_HEADER_LINKS:
-        return {
-            ...state,
-            headerLinks: action.payload
-        }
+          return {
+              ...state,
+              headerLinks: action.payload
+          }
       case SET_NAVBAR_LINKS:
-        return {
-          ...state,
-          navbarLinks: action.payload
-      }       
+          return {
+              ...state,
+              navbarLinks: action.payload
+          }
       default: return state;
-    }
+  }
 }
