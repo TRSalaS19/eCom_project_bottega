@@ -19,9 +19,9 @@ export function setNavbarLinks(links) {
   })
 }
 
-export function changeNavbarActive(__id) {
+export function changeNavbarActive(_id) {
   return ({
     type: CHANGE_NAVBAR_ACTIVE, 
-    payload: __id
+    payload: _id
   })
 }

@@ -11,17 +11,17 @@ class SignInForm extends Component {
     const { className, handleSubmit } = this.props;
     const links = [
       {
-        __id: 0,
+        _id: 0,
         title: 'Not Registered? Create a free account here', 
         onClick:() => history.push('/signup')
       },
       {
-        __id: 1,
+        _id: 1,
         title: 'Forgot account email?',
         onClick: () => console.log('forgot email')
       },
       {
-        __id: 2, 
+        _id: 2, 
         title: 'Forgot password?',
         onClick: () => console.log('forgot password')
       }
