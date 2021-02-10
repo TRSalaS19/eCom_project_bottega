@@ -1,5 +1,7 @@
-html{
-  font-size: 62.5%;
+
+
+html {
+    font-size: 62.5%;
 }
 
 *,
@@ -11,21 +13,20 @@ html{
 }
 
 body {
-  font-family: "Open Sans";
-  color: #808080;
+    font-family: "Open Sans";
+    color: #808080;
 }
 
-$nav-black : #333333;
 
-@import './layout.scss';
-@import './headernavbar.scss';
-@import './auth/signin.scss';
-@import './auth/signup.scss';
+@import 'layout';
+@import 'headernavbar';
+@import 'auth/signin';
+@import 'auth/signup';
 
-@import './page-title.scss';
-@import './form-fields.scss';
-@import './details.scss';
+@import 'page-title';
+@import 'form-fields';
+@import 'details';
 
-@import './account/account.scss';
-@import './account/purchase-history.scss';
-@import './account/account-information.scss';
+@import 'account/account';
+@import 'account/purchase-history';
+@import 'account/account-information';
